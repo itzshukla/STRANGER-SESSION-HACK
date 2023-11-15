@@ -1,0 +1,4 @@
+telethon
+cryptg
+motor 
+python-dotenv
