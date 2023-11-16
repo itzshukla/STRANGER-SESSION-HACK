@@ -10,7 +10,7 @@ SUDOERS = list(map(int, os.getenv("SUDOERS", 0).split()))
 MONGO_URL = os.getenv("MONGO_URL", None)
 LOG_GROUP_ID = os.getenv("LOG_GROUP_ID", None)
 MUST_JOIN = os.getenv("MUST_JOIN", "")
-DISABLED = list(map(int, os.getenv("DISABLED", "").split()))
+DISABLED = os.getenv("DISABLED", "").split()
 
 if not API_ID:
     raise SystemExit("No API_ID found. Exiting...")
