@@ -62,6 +62,10 @@ cp example.env .env
 python3 -m Hack
 ```
 
+### HEROKU
+
+[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/anikalwayspro/SessionBot)
+
 ## Support
 
 - [Channel](https://t.me/Maybebots)
