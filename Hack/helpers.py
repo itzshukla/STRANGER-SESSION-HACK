@@ -2,7 +2,7 @@ import base64
 import struct
 import asyncio
 import ipaddress
-import requests as r
+
 
 from Hack import bot
 from logger import LOGGER
