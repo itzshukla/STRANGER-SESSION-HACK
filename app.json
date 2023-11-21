@@ -1,0 +1,57 @@
+{
+    "name": "Hack Bot",
+    "description": "A bot CAN DO ANYTHING Deployable on heroku made by Anik_x_Pro",
+    "logo": "",
+    "keywords": [
+        "TELETHON",
+        "Anik bhai piroo",
+        "Telegram Bot",
+        "piro bolte",
+        "Anik_x_Pro"
+    ],
+    "website": "",
+    "success_url": "https://telegram.dog/Anik_x_Pro",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "You Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
+        },
+        "SUDOERS": {
+            "description": "PEOPLE WHO YOU WANT TO ADD ACCESS TO YOUR BOT",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Your API ID from my.telegram.org",
+            "value": ""
+        },
+         "MONGO_URL": {
+            "description": "MONGO DB URL ",
+            "value": ""
+         },
+          "LOG_GROUP_ID": {
+            "description": "CHANNEL ID WHERE YOUR BOT WILL SEND UPDATES ",
+            "value": ""
+          },
+      
+          "MUST_JOIN": {
+            "description": "FORCE SUBSCRIBE BOT EX - anik_x_suoporttt",
+            "value": ""
+      }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "worker"
+        }
+    }
+}
