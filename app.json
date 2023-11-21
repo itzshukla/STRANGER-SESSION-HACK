@@ -24,7 +24,7 @@
             "description": "PEOPLE WHO YOU WANT TO ADD ACCESS TO YOUR BOT",
             "value": ""
         },
-        "APP_ID": {
+        "API_ID": {
             "description": "Your API ID from my.telegram.org",
             "value": ""
         },
