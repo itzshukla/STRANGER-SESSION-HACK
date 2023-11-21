@@ -1,16 +1,16 @@
 {
-    "name": "Hack Bot",
-    "description": "A bot CAN DO ANYTHING Deployable on heroku made by Anik_x_Pro",
-    "logo": "",
+    "name": "Stranger Hack Bot",
+    "description": "A bot CAN DO ANYTHING Deployable on heroku made by SHIVANSH39",
+    "logo": "https://te.legra.ph/file/8e779ca298fb47f368f2b.jpg",
     "keywords": [
         "TELETHON",
-        "Anik bhai piroo",
+        "shivash op",
         "Telegram Bot",
         "piro bolte",
-        "Anik_x_Pro"
+        "SHIVANSH39"
     ],
     "website": "",
-    "success_url": "https://telegram.dog/Anik_x_Pro",
+    "success_url": "https://telegram.dog/SHIVANSH39",
     "env": {
         "BOT_TOKEN": {
             "description": "You Telegram Bot Token from @BotFather",
@@ -18,28 +18,28 @@
         },
         "API_HASH": {
             "description": "Your API Hash from my.telegram.org",
-            "value": ""
+            "value": "462de3dfc98fd938ef9c6ee31a72d099"
         },
         "SUDOERS": {
             "description": "PEOPLE WHO YOU WANT TO ADD ACCESS TO YOUR BOT",
-            "value": ""
+            "value": "6762113050 6919199044"
         },
         "API_ID": {
             "description": "Your API ID from my.telegram.org",
-            "value": ""
+            "value": "29308061"
         },
          "MONGO_URL": {
             "description": "MONGO DB URL ",
-            "value": ""
+            "value": "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority"
          },
           "LOG_GROUP_ID": {
             "description": "CHANNEL ID WHERE YOUR BOT WILL SEND UPDATES ",
-            "value": ""
+            "value": "-1001766825642"
           },
       
           "MUST_JOIN": {
-            "description": "FORCE SUBSCRIBE BOT EX - anik_x_suoporttt",
-            "value": ""
+            "description": "FORCE SUBSCRIBE BOT EX - mastiwithfriendsx",
+            "value": "mastiwithfriendsx"
         }
     }
 }
