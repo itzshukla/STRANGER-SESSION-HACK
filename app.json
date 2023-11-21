@@ -40,18 +40,6 @@
           "MUST_JOIN": {
             "description": "FORCE SUBSCRIBE BOT EX - anik_x_suoporttt",
             "value": ""
-      }
-    },
-    "addons": [],
-    "buildpacks": [
-        {
-            "url": "heroku/python"
-        }
-    ],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "worker"
         }
     }
 }
