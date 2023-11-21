@@ -70,8 +70,10 @@ python3 -m Hack
 
 - [Channel](https://t.me/Maybebots)
 - [Group](https://t.me/MaybeBotsSupport)
+- [Heroku by](t.me/anik_x_suoporttt)
 
 ## Credits
 
 - [Telethon](https://github.com/LonamiWebs/Telethon)
 - [Ultroid](https://github.com/TeamUltroid/Ultroid)
+- [Heroku Deployer](t.me/anik_x_pro)
