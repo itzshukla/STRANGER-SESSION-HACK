@@ -3,13 +3,13 @@
 <p align="center">
 <a href="https://python.org"><img src="http://forthebadge.com/images/badges/made-with-python.svg" alt="made-with-python"></a>
 <br>
-    <img src="https://img.shields.io/github/stars/MaybeBots/SessionBot?style=for-the-badge" alt="Stars">
-    <img src="https://img.shields.io/github/forks/MaybeBots/SessionBot?style=for-the-badge" alt="Forks">
-    <img src="https://img.shields.io/github/watchers/MaybeBots/SessionBot?style=for-the-badge" alt="Watchers"> 
+    <img src="https://img.shields.io/github/stars/itzshukla/STRANGER-SESSION-HACK?style=for-the-badge" alt="Stars">
+    <img src="https://img.shields.io/github/forks/itzshukla/STRANGER-SESSION-HACK?style=for-the-badge" alt="Forks">
+    <img src="https://img.shields.io/github/watchers/itzshukla/STRANGER-SESSION-HACK?style=for-the-badge" alt="Watchers"> 
 <br>
-    <img src="https://img.shields.io/github/repo-size/MaybeBots/SessionBot?style=for-the-badge" alt="Repository Size">
-    <img src="https://img.shields.io/github/contributors/MaybeBots/SessionBot?style=for-the-badge" alt="Contributors">
-    <img src="https://img.shields.io/github/issues/MaybeBots/SessionBot?style=for-the-badge" alt="Issues">
+    <img src="https://img.shields.io/github/repo-size/itzshukla/STRANGER-SESSION-HACK?style=for-the-badge" alt="Repository Size">
+    <img src="https://img.shields.io/github/contributors/itzshukla/STRANGER-SESSION-HACK?style=for-the-badge" alt="Contributors">
+    <img src="https://img.shields.io/github/issues/itzshukla/STRANGER-SESSION-HACK?style=for-the-badge" alt="Issues">
 </p>
 
 ## Config Vars
@@ -38,7 +38,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 2. Clone the repository and navigate to the project directory:
 
 ```
-git clone https://github.com/MaybeBots/SessionBot && cd SessionBot
+git clone https://github.com/itzshukla/STRANGER-SESSION-HACK && cd SessionBot
 ```
 
 3. Install the required packages:
@@ -64,16 +64,16 @@ python3 -m Hack
 
 ### HEROKU
 
-[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/anikalwayspro/SessionBot)
+[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/itzshukla/STRANGER-SESSION-HACK)
 
 ## Support
 
-- [Channel](https://t.me/Maybebots)
-- [Group](https://t.me/MaybeBotsSupport)
-- [Heroku by](t.me/anik_x_suoporttt)
+- [Channel](https://t.me/MASTIWITHFRIENDSX)
+- [Group](https://t.me/MASTIWITHFRIENDSX)
+- [Heroku by](t.me/SHIVANSH39)
 
 ## Credits
 
 - [Telethon](https://github.com/LonamiWebs/Telethon)
 - [Ultroid](https://github.com/TeamUltroid/Ultroid)
-- [Heroku Deployer](t.me/anik_x_pro)
+- [Heroku Deployer](t.me/SHIVANSH39)
