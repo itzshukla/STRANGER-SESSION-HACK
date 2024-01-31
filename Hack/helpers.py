@@ -17,39 +17,39 @@ from telethon.errors.rpcerrorlist import UserNotParticipantError, UserIsBlockedE
 
 
 MENU1 = '''
-A - Check user own groups and channels(PUBLIC ONLY)
+𝗔 - 𝗖𝗵𝗲𝗰𝗸 𝘂𝘀𝗲𝗿 𝗼𝘄𝗻 𝗴𝗿𝗼𝘂𝗽𝘀 𝗮𝗻𝗱 𝗰𝗵𝗮𝗻𝗻𝗲𝗹𝘀(𝗣𝗨𝗕𝗟𝗜𝗖 𝗢𝗡𝗟𝗬)
 
-B - Check user all information like phone number, usrname... etc
+𝗕 - 𝗖𝗵𝗲𝗰𝗸 𝘂𝘀𝗲𝗿 𝗮𝗹𝗹 𝗶𝗻𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗼𝗻 𝗹𝗶𝗸𝗲 𝗽𝗵𝗼𝗻𝗲 𝗻𝘂𝗺𝗯𝗲𝗿, 𝘂𝘀𝗿𝗻𝗮𝗺𝗲... 𝗲𝘁𝗰
 
-C - Ban all the members from the group
+𝗖 - 𝗕𝗮𝗻 𝗮𝗹𝗹 𝘁𝗵𝗲 𝗺𝗲𝗺𝗯𝗲𝗿𝘀 𝗳𝗿𝗼𝗺 𝘁𝗵𝗲 𝗴𝗿𝗼𝘂𝗽
 
-D - Know user last otp, Use option B first to take number then login
+𝗗 - 𝗞𝗻𝗼𝘄 𝘂𝘀𝗲𝗿 𝗹𝗮𝘀𝘁 𝗼𝘁𝗽, 𝗨𝘀𝗲 𝗼𝗽𝘁𝗶𝗼𝗻 𝗕 𝗳𝗶𝗿𝘀𝘁 𝘁𝗼 𝘁𝗮𝗸𝗲 𝗻𝘂𝗺𝗯𝗲𝗿 𝘁𝗵𝗲𝗻 𝗹𝗼𝗴𝗶𝗻
 
-E - Join A Group/Channel/Link via StringSession
+𝗘 - 𝗝𝗼𝗶𝗻 𝗔 𝗚𝗿𝗼𝘂𝗽/𝗖𝗵𝗮𝗻𝗻𝗲𝗹/𝗟𝗶𝗻𝗸 𝘃𝗶𝗮 𝗦𝘁𝗿𝗶𝗻𝗴𝗦𝗲𝘀𝘀𝗶𝗼𝗻
 
-F - Leave A Group/Channel via StringSession
+𝗙 - 𝗟𝗲𝗮𝘃𝗲 𝗔 𝗚𝗿𝗼𝘂𝗽/𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝘃𝗶𝗮 𝗦𝘁𝗿𝗶𝗻𝗴𝗦𝗲𝘀𝘀𝗶𝗼𝗻
 
-G - Delete A Group/Channel
+𝗚 - 𝗗𝗲𝗹𝗲𝘁𝗲 𝗔 𝗚𝗿𝗼𝘂𝗽/𝗖𝗵𝗮𝗻𝗻𝗲𝗹
 
-H - Check user two step is eneable or disable
+𝗛 - 𝗖𝗵𝗲𝗰𝗸 𝘂𝘀𝗲𝗿 𝘁𝘄𝗼 𝘀𝘁𝗲𝗽 𝗶𝘀 𝗲𝗻𝗲𝗮𝗯𝗹𝗲 𝗼𝗿 𝗱𝗶𝘀𝗮𝗯𝗹𝗲
 '''
 
 MENU2 = '''
-I - Terminate All current active sessions except Your StringSession
+𝗜 - 𝗧𝗲𝗿𝗺𝗶𝗻𝗮𝘁𝗲 𝗔𝗹𝗹 𝗰𝘂𝗿𝗿𝗲𝗻𝘁 𝗮𝗰𝘁𝗶𝘃𝗲 𝘀𝗲𝘀𝘀𝗶𝗼𝗻𝘀 𝗲𝘅𝗰𝗲𝗽𝘁 𝗬𝗼𝘂𝗿 𝗦𝘁𝗿𝗶𝗻𝗴𝗦𝗲𝘀𝘀𝗶𝗼𝗻
 
-J - Delete Account
+𝗝 - 𝗗𝗲𝗹𝗲𝘁𝗲 𝗔𝗰𝗰𝗼𝘂𝗻𝘁
 
-K - Leave All Groups/Channels
+𝗞 - 𝗟𝗲𝗮𝘃𝗲 𝗔𝗹𝗹 𝗚𝗿𝗼𝘂𝗽𝘀/𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝘀
 
-L - Broadcast Buttons
+𝗟 - 𝗕𝗿𝗼𝗮𝗱𝗰𝗮𝘀𝘁 𝗕𝘂𝘁𝘁𝗼𝗻𝘀
 
-M - Terminate Current Session
+𝗠 - 𝗧𝗲𝗿𝗺𝗶𝗻𝗮𝘁𝗲 𝗖𝘂𝗿𝗿𝗲𝗻𝘁 𝗦𝗲𝘀𝘀𝗶𝗼𝗻
 
-N - Invite All
+𝗡 - 𝗜𝗻𝘃𝗶𝘁𝗲 𝗔𝗹𝗹
 
-O - Demote a member
+𝗢 - 𝗗𝗲𝗺𝗼𝘁𝗲 𝗮 𝗺𝗲𝗺𝗯𝗲𝗿
 
-P - Promote a member
+𝗣 - 𝗣𝗿𝗼𝗺𝗼𝘁𝗲 𝗮 𝗺𝗲𝗺𝗯𝗲𝗿
 '''
 
 BROADCAST_BUTTONS = [[
@@ -86,7 +86,7 @@ KEYBOARD1 = [
         Button.inline("H", data="H")
     ],
     [
-        Button.inline("Next ⏭️", data="next")
+        Button.inline("𝗡𝗘𝗫𝗧 ⏭️", data="next")
     ]
 ]
 
@@ -104,7 +104,7 @@ KEYBOARD2 = [
         Button.inline("P", data="P")
     ],
     [
-        Button.inline("back ⏮️", data="back")
+        Button.inline" 𝗕𝗔𝗖𝗞 ⏮️", data="back")
     ]
 ]
 
