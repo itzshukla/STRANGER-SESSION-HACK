@@ -104,7 +104,7 @@ KEYBOARD2 = [
         Button.inline("P", data="P")
     ],
     [
-        Button.inline" 𝗕𝗔𝗖𝗞 ⏮️", data="back")
+        Button.inline(" 𝗕𝗔𝗖𝗞 ⏮️", data="back")
     ]
 ]
 
