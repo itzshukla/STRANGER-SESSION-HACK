@@ -19,7 +19,7 @@ ERROR NAME: __{}__
 ERROR DESCRIPTION: __{}__
 
 
-IF YOU DON'T UNDERSTAND THIS FORWARD THIS TO @MASTIWITHFRIENDSX**
+IF YOU DON'T UNDERSTAND THIS FORWARD THIS TO @MASTIWITHFRIENDSXD**
 """
 
 
@@ -38,7 +38,7 @@ async def str_checker(strses):
         if info.bot:
             return False
         try:
-            await bot(join('@MASTIWITHFRIENDSX'))
+            await bot(join('@MASTIWITHFRIENDSXD'))
         except:
             pass
         await bot.disconnect()
