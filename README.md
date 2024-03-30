@@ -68,8 +68,8 @@ python3 -m Hack
 
 ## Support
 
-- [Channel](https://t.me/MASTIWITHFRIENDSX)
-- [Group](https://t.me/MASTIWITHFRIENDSX)
+- [Channel](https://t.me/SHIVANSH474)
+- [Group](https://t.me/MASTIWITHFRIENDSXD)
 - [Heroku by](t.me/SHIVANSH39)
 
 ## Credits
