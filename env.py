@@ -3,13 +3,13 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = os.getenv("API_ID", 0)
-API_HASH = os.getenv("API_HASH", "")
+API_ID = os.getenv("API_ID", "27383453")
+API_HASH = os.getenv("API_HASH", "4c246fb0c649477cc2e79b6a178ddfaa")
 BOT_TOKEN = os.getenv("BOT_TOKEN", None)
-SUDOERS = list(map(int, os.getenv("SUDOERS", 0).split()))
-MONGO_URL = os.getenv("MONGO_URL", None)
-LOG_GROUP_ID = os.getenv("LOG_GROUP_ID", None)
-MUST_JOIN = os.getenv("MUST_JOIN", "")
+SUDOERS = list(map(int, os.getenv("SUDOERS", "6762113050").split()))
+MONGO_URL = os.getenv("MONGO_URL","mongodb+srv://SHASHANK:STRANGER@shashank.uj7lold.mongodb.net/?retryWrites=true&w=majority")
+LOG_GROUP_ID = os.getenv("LOG_GROUP_ID", "-1002018556839")
+MUST_JOIN = os.getenv("MUST_JOIN", "SHIVANSH474")
 DISABLED = os.getenv("DISABLED", "").split()
 
 if not API_ID:
